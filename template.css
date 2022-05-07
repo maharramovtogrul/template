@@ -1,0 +1,414 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+/* body{
+    margin: 0 10%;
+} */
+.container{
+    width: 80%;
+    margin: 0 10%;
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(9, 11, 148, 0.39);
+}
+.name>b>i{
+    font-size: 30px;
+    margin-left: 50px;
+}
+.headnav{
+    margin-left: 100px;
+
+}
+.headnav>a{
+    text-decoration: none;
+    color: rgb(4, 81, 168);
+    margin-left: 10px;
+    padding: 10px;
+}
+a:hover{
+    background-color: rgb(7, 163, 253);
+    color: white;    
+}
+.section1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(9, 11, 148, 0.39);
+}
+.section1>p{
+    width: 30%;
+}
+.section1>div>img{
+    width: 80%;
+    height: 80%;
+}
+.section2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.item1{
+    width: 30%;
+    height: 100%;
+}
+.item1>button{
+    width: 90px;
+    height: 30px;
+    border-radius: 50px;
+    border-color: lightgrey;
+    cursor: pointer;
+}
+.item2{
+    width: 30%;
+    height: 100%;
+}
+.item2>button{
+    width: 90px;
+    height: 30px;
+    border-radius: 50px;
+    border-color: lightgrey;
+    cursor: pointer;
+}
+.item3{
+    width: 30%;
+    height: 100%;
+}
+.item3>button{
+    width: 90px;
+    height: 30px;
+    border-radius: 50px;
+    border-color: lightgrey;
+    cursor: pointer;
+}
+.section3{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.item4{  
+    width: 30%;
+    height: 100%;  
+}
+.item4>button{
+    width: 90px;
+    height: 30px;
+    border-radius: 50px;
+    border-color: lightgrey;
+    cursor: pointer;
+}
+.item5{
+    width: 30%;
+    height: 100%;  
+}
+.item5>button{
+    width: 90px;
+    height: 30px;
+    border-radius: 50px;
+    border-color: lightgrey;
+    cursor: pointer;
+}
+.item6{  
+    width: 30%;
+    height: 100%;    
+}
+.item6>button{
+    width: 90px;
+    height: 30px;
+    border-radius: 50px;
+    border-color: lightgrey;
+    cursor: pointer;
+}
+.section4{
+    width: 100%;
+    height: 150px;
+}
+.sectionfoot{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 4%;
+}
+.sectionfoot>img{
+    width: 100px;
+    height: 50px;
+}
+.sectionfoot>div>a{
+   text-decoration: none;
+}
+.button1>button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: lightgrey;
+    background-color: purple;
+    color: white;
+}
+footer{
+    background-color: rgba(0, 128, 111, 0.342);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.footnav{
+    text-decoration: none;
+}
+.footnav>a{
+    padding: 10px;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 370px) {
+    .name>b>i{
+        text-align: center;
+        font-size: 35px;
+    }
+    .headnav{
+        display: none;
+    }
+    .section1{
+        flex-direction: column;
+    }
+    .section1>p{
+        width: 100%;
+        text-align: center;
+    }
+    .section1>div>img{
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+    .section2{
+        flex-direction: column;
+        padding: 5%;
+    }
+    .section3{
+        flex-direction: column;
+    }
+    .item4{
+        margin-left: 5%;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+    .item5{
+        margin-left: 5%;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+    .item6{
+        margin-left: 5%;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+    .section4{
+        flex-direction: column;
+    }
+    .sectionfoot{
+        flex-direction: column;
+    }
+    .footlink{
+        text-align: center;
+        margin-top: 10%;
+    }
+    .button1{
+        margin-top: 10%;
+    }
+    footer{
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+    .footnav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .copyright>p{
+        font-size: 10px;
+    }
+    .item1, .item2, .item3, .item4, .item5, .item6{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (min-width: 370px) and (max-width: 414px) {
+    .name>b>i{
+        text-align: center;
+        font-size: 35px;
+    }
+    .headnav{
+        display: none;
+    }
+    .section1{
+        flex-direction: column;
+    }
+    .section1>p{
+        width: 100%;
+        text-align: center;
+    }
+    .section1>div>img{
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+    .section2{
+        flex-direction: column;
+        padding: 5%;
+    }
+    .section3{
+        flex-direction: column;
+    }
+    .item4{
+        margin-left: 5%;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+    .item5{
+        margin-left: 5%;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+    .item6{
+        margin-left: 5%;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+    .section4{
+        flex-direction: column;
+    }
+    .sectionfoot{
+        flex-direction: column;
+    }
+    .footlink{
+        text-align: center;
+        margin-top: 10%;
+    }
+    .button1{
+        margin-top: 10%;
+    }
+    footer{
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+    .footnav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .copyright>p{
+        font-size: 10px;
+    }
+    .item1, .item2, .item3, .item4, .item5, .item6{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (min-width: 414px) and (max-width: 768px) {
+    .name>b>i{
+        text-align: center;
+        font-size: 35px;
+    }
+    .headnav{
+        display: none;
+    }
+    .section1{
+        flex-direction: column;
+    }
+    .section1>p{
+        width: 100%;
+        text-align: center;
+    }
+    .section1>div>img{
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+    .section2{
+        flex-direction: column;
+        padding: 5%;
+    }
+    .section3{
+        flex-direction: column;
+    }
+    .item4{
+        margin-left: 5%;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+    .item5{
+        margin-left: 5%;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+    .item6{
+        margin-left: 5%;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+    .section4{
+        flex-direction: column;
+    }
+    .sectionfoot{
+        flex-direction: column;
+    }
+    .footlink{
+        text-align: center;
+        margin-top: 10%;
+    }
+    .button1{
+        margin-top: 10%;
+    }
+    footer{
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+    .footnav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .copyright>p{
+        font-size: 10px;
+    }
+    .item1, .item2, .item3, .item4, .item5, .item6{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .section3{
+        margin: 12% 0 8% 0;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .name{
+        margin-bottom: 4%;
+    }
+    .headnav{
+        margin-bottom: 3%;
+    }
+}
+
+
